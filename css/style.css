@@ -1,8 +1,21 @@
+/*--------------------
+default css
+----------------------- */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+/* ----------
+font-link 
+---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@300;400;500;600;700&display=swap');
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -40,4 +53,59 @@
     width: 20%;
     float: left;
     padding: 0 25px;
+}
+
+/* --------------------------
+custom css
+------------------------------ */
+
+/* font-family: 'Open Sans',
+sans-serif;
+font-family: 'Poppins',
+sans-serif; */
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/*------------------------
+ 01.top-header css 
+--------------------------*/
+.top-header{
+    background-color: #1d1d1d;
+    padding: 10px 0;
+}
+.number{
+    color: #B6B6B6;
+    font-size: 14px;
+    font-weight: 300;
+    display: inline-block;
+    transition: .3s;
+}
+.social_icon{
+    display: inline-block;
+}
+.social_icon li{
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 3px;
+}
+.social_icon a{
+    color: #fff;
+}
+.login-register{
+    font-size: 14px;
+    text-transform: capitalize;
+    float: right;
+}
+.login-register a{
+    color: #D8D8D8;
+    margin-left: 20px;
+    transition: .3s;
+}
+
+.number:hover,
+.login-register a:hover {
+    color: #ff1949;
 }
