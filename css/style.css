@@ -356,3 +356,60 @@ header .main-menu .menu-icon:hover{
 .courses-box:hover .courses-instructor::before{
     width: 100px;
 }
+
+
+/*------------------------
+ 04.experts css
+--------------------------*/
+.experts{
+    width: 100%;
+    height: 100%;
+}
+.experts-box{
+    width: 100%;
+    height: 490px;
+    background-color: #ff1949;
+}
+
+.experts-box-01{
+}
+.experts-box-02{
+    background: url(../img/home/experts-01.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.experts-box-03{
+        background: url(../img/home/experts-02.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+}
+.experts-box-04{
+        background: url(../img/home/experts-03.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+}
+
+.experts .col-50{
+    padding: 0;
+}
+.experts-box{
+    padding: 100px 150px;
+    color: #fff;
+}
+.experts-box h1{
+    font-size: 45px;
+}
+.experts-box a{
+    font-size: 17px;
+    color: #fff;
+   display: inline-block;
+   padding-top: 15px;
+}
+
+.experts-box-04 h1,
+.experts-box-04 a{
+   color: #252525;
+}
