@@ -17,6 +17,7 @@ ul{
 }
 img{
     width: 100%;
+    height: auto;
     vertical-align: middle;
 }
 /* ----------
@@ -84,6 +85,31 @@ h1,h2,h3,h4,h5,h6{
 }
 .section-padding {
     padding: 120px 0;
+}
+.section-title{
+   max-width: 750px;
+   margin-bottom: 60px;
+}
+.section-title h1{
+ font-size: 45px;
+ color: #252525;
+ position: relative;
+}
+.section-title h1::after{
+    position: absolute;
+    content: '';
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 50px;
+    height: 3px;
+    background-color: #ff1949;
+}
+.section-title p{
+    font-size: 17px;
+    color: #333;
+    line-height: 22px;
+    padding-top: 20px;
 }
 .col-100 {
     width: 100%;
@@ -412,4 +438,35 @@ header .main-menu .menu-icon:hover{
 .experts-box-04 h1,
 .experts-box-04 a{
    color: #252525;
+}
+/*------------------------
+ 05.teachers css
+--------------------------*/
+.teachers{}
+.teachers-single{
+    display: flex;
+}
+.teachers-single-left{
+    width: 140px;
+    height: 140px;
+    padding-right: 20px;
+}
+.teachers-single-right{
+    padding-top: 30px;
+}
+.teachers-single-right h1{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.teachers-single-right span{
+    font-size: 15px;
+    color: #252525;
+}
+.teachers-single-right ul{
+    display: flex;
+   
+}
+.teachers-single-right ul li a{}
+.teachers-single-right ul li a i{
+   margin-right: 10px;
 }
